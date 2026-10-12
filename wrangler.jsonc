@@ -1,0 +1,9 @@
+{
+  // Sito statico di Jada Genovese, make up artist: Cloudflare pubblica i file della cartella "public".
+  // Il nome deve coincidere con il nome del progetto creato su Cloudflare.
+  "name": "jada-genovese",
+  "compatibility_date": "2026-10-12",
+  "assets": {
+    "directory": "./public"
+  }
+}
