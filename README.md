@@ -12,8 +12,9 @@ public/style.css      colori, caratteri, layout
 public/img/           foto (ritagliate, senza il logo di altri centri che si vedeva sulle magliette)
 public/fonts/         Italiana e Outfit (licenza OFL)
 public/favicon.svg    icona della scheda del browser
+public/apple/         versione alternativa in stile Apple (pagina su /apple/), per il confronto: quella scelta diventa la pagina principale, l'altra si toglie
 public/robots.txt     blocca Google finché il sito è in anteprima
-scripts/make-artifact.mjs   crea dist/anteprima.html, la pagina in un solo file da mandare a chi non ha il sito online
+scripts/make-artifact.mjs   crea dist/anteprima.html (e con `apple` dist/anteprima-apple.html), la pagina in un solo file da mandare a chi non ha il sito online
 wrangler.jsonc        pubblicazione su Cloudflare
 ```
 
